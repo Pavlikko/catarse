@@ -25,6 +25,12 @@ GIT
       httparty (~> 0.6.1)
       nokogiri (>= 1.5.0)
 
+PATH
+  remote: lib/catarse_intellect_money
+  specs:
+    catarse_intellect_money (0.0.1)
+      rails (~> 4.0.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -466,6 +472,7 @@ DEPENDENCIES
   browser
   capybara (~> 2.1.0)
   carrierwave (~> 0.10.0)
+  catarse_intellect_money!
   catarse_mailchimp!
   catarse_moip (~> 2.3.5)
   catarse_paypal_express (= 2.2.3)
