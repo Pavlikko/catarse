@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/apollovy/catarse_intellect_money.git
+  revision: 9ae33305c4eaf09ea14e0559337b8eeb98c97cc5
+  specs:
+    catarse_intellect_money (0.0.2)
+      rails (~> 4.0.3)
+
+GIT
   remote: git://github.com/bernat/best_in_place.git
   revision: 366413be357d65cdf47031e928aea969f72e3659
   branch: rails-4
@@ -24,12 +31,6 @@ GIT
       activesupport (>= 2.3.2)
       httparty (~> 0.6.1)
       nokogiri (>= 1.5.0)
-
-PATH
-  remote: lib/catarse_intellect_money
-  specs:
-    catarse_intellect_money (0.0.1)
-      rails (~> 4.0.3)
 
 GEM
   remote: https://rubygems.org/

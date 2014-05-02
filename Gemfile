@@ -32,7 +32,7 @@ gem 'catarse_settings_db'
 # Payment engines
 gem 'catarse_paypal_express', '2.2.3'
 gem 'catarse_moip', '~> 2.3.5'
-gem 'catarse_intellect_money', path: 'lib/catarse_intellect_money'
+gem 'catarse_intellect_money', github: 'apollovy/catarse_intellect_money'
 # gem 'catarse_wepay', '~> 0.0.1'
 
 # Decorators
