@@ -72,12 +72,4 @@
             .tab_content_container
               - PaymentEngines.engines.each do |engine|
                 div[id="#{engine.name}_payment" class="payments_type hide" data-path=engine.review_path(@contribution) ]
-            form action="https://merchant.intellectmoney.ru/ru/" name="pay" method="POST"
-              input type="hidden" name="eshopId" value="#{CatarseSettings[:intellectmoney_eshopid]}"
-              input type="hidden" name="orderId" value="#{@contribution.id}"
-              input type="hidden" name="serviceName" value="#{@title}"
-              input type="hidden" name="recipientAmount" value="#{@contribution.value}"
-              input type="hidden" name="recipientCurrency" value="TST"
-              input type="hidden" name="hash" value="#{@hash}"
-              input type="submit" name="button" value="оплатить"
     .clearfix

@@ -12,21 +12,6 @@ class Projects::ContributionsController < ApplicationController
 
   def edit
     authorize resource
-    @title = t(
-      'projects.contributions.edit.intellectmoney_title',
-      project_name: @project.name,
-    )
-    @hash = Digest::MD5.hexdigest(
-        [
-            CatarseSettings[:intellectmoney_eshopid],
-            @contribution.id,
-            @title,
-            @contribution.value,
-            'TST',
-            CatarseSettings[:intellectmoney_secret],
-        ].join('::')
-    )
-
   end
 
   def update
@@ -103,5 +88,4 @@ class Projects::ContributionsController < ApplicationController
   def collection
     @contributions ||= apply_scopes(end_of_association_chain).available_to_display.order("confirmed_at DESC").per(10)
   end
-
 end

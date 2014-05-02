@@ -1,3 +1,4 @@
 CatarseIntellectMoney::Engine.routes.draw do
-  post "/payment/intellectmoney/notification" => "application#notification"
+  post "/notification" => "intellect_money#notification"
+  get "/:contribution_id/review", {to: "intellect_money#review", as: "review"}
 end
