@@ -32,6 +32,15 @@ GIT
       httparty (~> 0.6.1)
       nokogiri (>= 1.5.0)
 
+GIT
+  remote: git://github.com/getsentry/raven-ruby.git
+  revision: a4d2ae59ce9f92578843b6536f816e9ee2403d48
+  specs:
+    sentry-raven (0.8.0)
+      faraday (>= 0.7.6)
+      hashie (>= 1.1.0)
+      uuidtools
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -448,6 +457,7 @@ GEM
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
+    uuidtools (2.1.4)
     valuable (0.9.8)
     video_info (2.0.2)
       addressable
@@ -529,6 +539,7 @@ DEPENDENCIES
   schema_associations
   schema_plus
   selenium-webdriver
+  sentry-raven!
   shoulda
   sidekiq (~> 2.15.2)
   simple_form
