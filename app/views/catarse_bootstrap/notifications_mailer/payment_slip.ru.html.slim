@@ -1,19 +1,19 @@
-- contribution = @notification.contribution
-|Hi, <strong>#{contribution.user.display_name}</strong> !
+﻿- contribution = @notification.contribution
+|Здравствуйте, <strong>#{contribution.user.display_name}</strong> !
 br
 br
-|You printed a bank slip to contribute with <strong>#{contribution.project.name}</strong>.
+|Вы распечатали квитанцию, чтобы поддержать проект <strong>#{contribution.project.name}</strong>.
 br
 br
-|If the bank slip has already been paid and your name still doesn't show up on the contributions list, do not worry, in up to <strong>3 working days</strong> your name will show up on the site. This is how long it takes for the information to be received by the bank, passed to MoiP, and get to us, ok?
+|Если квитанция уже оплачена, но ваше имя не появилось в списке поддержавших проект, не беспокойтесь в течении не более  <strong>3 рабочих дней</strong> ваше имя появится на сайте.
 br
 br
-|If you forgot to pay the bank slip and still want to contribute the project, it's very simple, access #{link_to('página do projeto', project_by_slug_url(permalink: contribution.project.permalink, host: Configuration['host'] ))} and contribute the project again. The first bank slip will be ignored.
+|Если Вы забыли оплатить квитанцию, но все равно хотите поддержать проект, перейдите по ссылке #{link_to('página do projeto', project_by_slug_url(permalink: contribution.project.permalink, host: Configuration['host'] ))} и выберите поддержку проекта заново. Первая квитанция будет отменена.
 br
 br
-|As soon as your payment is authorized by MoiP, we will send you another email confirming the transaction.
+|Как только платеж будет авторизован, Вы получите письмо с подтверждением.
 br
 br
-|A big hug,
+|С уважением,
 br
-|#{Configuration[:company_name]} Team
+|#{Configuration[:company_name]} SportSupport

@@ -1,16 +1,16 @@
 ru:
   pages:
     login:
-      no_account_html: "Need an account? <strong>%{link}</strong>"
+      no_account_html: "Создать аккаунт? <strong>%{link}</strong>"
       titles:
-        site: 'Log in'
-        header: 'Log in'
+        site: 'войти в систему'
+        header: 'войти в систему'
       links:
-        register: "Sign up"
-        forgot_password: "I forgot my password"
+        register: "зарегистироваться"
+        forgot_password: "Забыли пароль?"
       form:
         labels:
-          remember_me: 'Remember me'
+          remember_me: 'Запомнить меня'
         inputs:
-          submit: 'Log me in'
-          facebook: 'Log in with Facebook'
+          submit: 'Войти в систему'
+          facebook: 'войти через Facebook'

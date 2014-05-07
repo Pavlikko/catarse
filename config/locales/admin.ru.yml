@@ -1,108 +1,108 @@
 ru:
   admin: &admin
-    confirm_dialog: 'You are sure?'
+    confirm_dialog: 'Вы уверены?'
     projects:
       index:
         by_state: 'By state'
-        between_created_at: 'Created at between'
-        submit: 'Filter'
-        send_to_trash: 'Delete'
-        send_to_draft: 'Send to DRAFT!'
-        reject: 'Reject!'
-        approve: 'Approve!'
-        order_asc: 'Goal asc'
+        between_created_at: 'Создано между'
+        submit: 'Фильтр'
+        send_to_trash: 'Удалить'
+        send_to_draft: 'Отправить в черновики!'
+        reject: 'Отказать!'
+        approve: 'Одобрить!'
+        order_asc: 'Целевая сумма'
         order_desc: 'Goal desc'
-        order_created_at: 'Submission date'
-        last_modification: 'Last update'
+        order_created_at: 'Дата размещения'
+        last_modification: 'Последнее обновление'
     financials:
       index:
-        submit: 'Filter'
+        submit: 'Фильтр'
         by_state: 'By state'
-        by_progress: By progress %
+        by_progress: По сбору средств в %
     users:
       index:
-        title: "Management contributions"
-        menu: Users
-        credits: Credits
+        title: "Управление взносами"
+        menu: Пользователи
+        credits: Баланс
         credits_view: "Calculated credits"
         id: ID
         key: Key
-        submit: Search
-        has_credits_difference: "Discrepancy in credits"
-        total_contributed: contributed
-        total_contributors: contributors
-        total_contributions: contributions
-        total_users: users
-        total_credits: credits
+        submit: ПоEea
+        has_credits_difference: "Различие в балансе"
+        total_contributed: внесEea
+        total_contributors: количество поддержавших
+        total_contributions: количество поддержавших
+        total_users: количество пользователей
+        total_credits: баланс
         total_credits_view: "calculated credits"
-        user: User
+        user: Пользователь
         value: Value
         provider: Provider
     contributions:
       messages:
         successful:
-          confirm: 'Contribution confirmed!'
-          pendent: 'Contribution unconfirmed!'
-          refund: 'Contribution refunded!'
-          change_reward: 'Reward changed!'
-          hide: 'Contribution hidden!'
-          cancel: 'Contribution canceled!'
-          push_to_trash: 'Contribution deleted!'
+          confirm: 'Взнос подтвержден!'
+          pendent: 'Взнос не подтвержден!'
+          refund: 'Взнос возвращен!'
+          change_reward: 'Вознаграждение изменено!'
+          hide: 'Взнос скрыт!'
+          cancel: 'Взнос отменен!'
+          push_to_trash: 'Взнос удален!'
       index:
-        send_refund_request_contribution: 'Send refund request'
-        push_to_trash: 'Delete contribution'
-        cancel: 'Cancel contribution'
-        refund_and_hide: 'Refund and hide'
-        contribution_info: 'Info of contribution %{key}'
-        payment_id: 'Payment ID'
-        payment_method: 'Payment method'
-        payment_fee: 'Payment method fee'
-        payment_choice: 'Payment choice'
-        payer_email: 'Payer email'
-        user_email: 'Catarse user email'
-        pending_to_refund: 'Pending to refund'
-        created_at: 'Created at'
-        title: "Contributions management"
-        menu: Contributions
-        anonymous: Anonymous?
-        confirmed: Confirmed?
-        credits: "Used credits?"
+        send_refund_request_contribution: 'Запрос на возврат средств отправлен'
+        push_to_trash: 'Удалить взнос'
+        cancel: 'Отменить взнос'
+        refund_and_hide: 'Вернуть и скрыть'
+        contribution_info: 'Информация о взносе %{key}'
+        payment_id: 'ID платежа'
+        payment_method: 'Метод платежа'
+        payment_fee: 'Комиссия метода платежа'
+        payment_choice: 'Выбор платежа'
+        payer_email: 'email для платежа'
+        user_email: ' email пользователя'
+        pending_to_refund: 'Задержка возврата средств'
+        created_at: 'Создано в'
+        title: "Управление взносами"
+        menu: Меценаты
+        anonymous: Анонимно?
+        confirmed: Подтверждено?
+        credits: "Использованный баланс?"
         id: ID
         key: Key
-        no_contributions: "No contributions found."
-        project: Project
-        refunded: Refunded?
-        requested_refund: "Requested refund?"
-        reward: Reward
-        no_reward: "No reward"
-        submit: Search
-        total_contributed: contributed
-        total_contributors: contributors
-        total_contributions: contributions
-        total_users: Users
-        user: User
+        no_contributions: "Не найдено взносов."
+        project: Проект
+        refunded: Возвращено?
+        requested_refund: "Запрошен возврат?"
+        reward: Вознаграждение
+        no_reward: "Нет вознаграждения"
+        submit: Поиск
+        total_contributed: внесено
+        total_contributors: количество меценатов
+        total_contributions: количество взносов
+        total_users: Количество пользователей
+        user: Пользователь
         value: Value
     statistics:
       index:
-        menu: "Statistics"
-        title: "Statistics"
-        total_users: "Users"
-        total_contributions: "Contributions"
-        total_contributors: "Contributors"
-        total_contributed: "Contributed"
-        total_projects: "Projects"
-        total_projects_success: "Successful"
+        menu: "Статистика"
+        title: "Статистика"
+        total_users: "Количество пользователей"
+        total_contributions: "Количество взносов"
+        total_contributors: "Количество меценатов"
+        total_contributed: "Внесено"
+        total_projects: "Количество проектов"
+        total_projects_success: "Успешно"
         total_projects_online: "Online"
       projects_by_week:
-        title: "Projects sent per week"
-        current_period: "Last 8 weeks"
-        previous_period: "Previous 8 weeks"
-        last_year: "Last year"
+        title: "Прислано проектов за неделю"
+        current_period: "Последние 8 недель"
+        previous_period: "Предыдущие 8 недель"
+        last_year: "Последний год"
       contributions_by_week:
         title: "Contributed value confirmed per week"
-        current_period: "Last 8 weeks"
-        previous_period: "Previous 8 weeks"
-        last_year: "Last year"
+        current_period: "Последние 8 недель"
+        previous_period: "Предыдущие 8 недель"
+        last_year: "Последний год"
 
   channels:
     admin:

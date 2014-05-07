@@ -1,21 +1,20 @@
 ru:
   pages:
     sign_up:
-      have_account_html: "Have an account? <strong>%{link}</strong>"
+      have_account_html: "Уже есть аккаунт? <strong>%{link}</strong>"
       titles:
-        site: 'Sign up'
-        header: 'Sign up'
+        site: 'Зарегистироваться'
+        header: 'Зарегистироваться'
       links:
-        login: "Log in"
+        login: "Войти в систему"
       form:
         labels:
-          show_password: 'Show password'
-          name: 'Name'
-          password: 'Password'
-          newsletter: 'I want to subscribe to Catarse newsletter'
+          show_password: 'показать пароль'
+          name: 'Имя'
+          password: 'Пароль'
+          newsletter: 'Подписаться на новости проекта'
         hint:
-          password_length: 'Must be at least 6 characters.'
+          password_length: 'Пароль должен быть не менее 6 символов'
         inputs:
-          submit: 'Sign me up'
-          facebook: 'Sign up with Facebook'
-
+          submit: 'Зарегистироваться'
+          facebook: 'Зарегистрироваться через Facebook'

@@ -1,44 +1,45 @@
 ru:
   channels_subscribers:
-    created: 'You are now following %{channel}'
-    deleted: 'You are no longer following %{channel}'
+    created: 'Вы подписаны на %{channel}'
+    deleted: 'Вы больше не подписаны на %{channel}'
   channels:
-    send_your_project: "Submit your project"
-    send_a_email: "Send a email"
-    follow: "Follow channel"
+    send_your_project: "Передать ваш проект"
+    send_a_email: "отправить email"
+    follow: "Подписаться на группу"
     following: "Following"
     unfollow: "Unfollow"
-    subscribed: "%{count} subscribed to this channel"
+    subscribed: "%{count} подписаны на группу"
     admin:
-      menu: "Channel moderation"
-      statistics_menu: "Statistics"
-      profile_menu: "Channel profile"
+      menu: "Модерирование группы"
+      statistics_menu: "Статистика"
+      profile_menu: "Профиль группы"
       statistics:
-        title: 'Channel statistics'
-        total_subscribers: 'Total subscribers'
+        title: 'Статистика группы'
+        total_subscribers: 'Количество подписчиков'
     projects:
-      send: "Submit your project"
-      see_how_it_works: "See how it works and submit your project."
-      how_it_works: "How it works"
-      progress_html: "<span>%{percent}%</span> funded"
+      send: "Передать ваш проект"
+      see_how_it_works: "Посмотреть как это работает и передать ваш проект"
+      how_it_works: "Как 
+это работает"
+      progress_html: "<span>%{percent}%</span> собрано"
       time_remaining_html:
-        one: "<span>%{count} %{unit}</span> remaining"
-        other: "<span>%{count} %{unit}</span> remaining"
-      pledged_html: "<span>%{value}</span> pledged"
+        one: "<span>%{count} %{unit}</span> осталось собрать"
+        other: "<span>%{count} %{unit}</span> осталось собрать"
+      pledged_html: "<span>%{value}</span> пожертововано"
     how_it_works:
-      title: "How %{channel} works?"
+      title: "Как %{channel} работает?"
     footer:
-      terms: "Terms of use"
-      privacy_policy: "Privacy Policy"
-      how_it_works: "How %{name} works"
-      how_channels_work: "Understand Catarse channels"
-      contact: "Contact"
+      terms: "Пользовательское соглашение"
+      privacy_policy: "Обработка персональной информации"
+      how_it_works: "Как %{name} работает"
+      how_channels_work: "Как работают группы"
+      contact: "Контакт"
     accessibility:
       how_it_works: "Clique para saber como o Canal funciona e enviar o seu projeto"
-      send_your_project: "Click to submit your project"
-      link_to_twitter: "Channel twitter link"
-      link_to_facebook: "Channel facebook link"
-      link_to_website: "Channel website"
+      send_your_project: "Нажмите, чтобы передать ваш проект"
+      link_to_twitter: "ссылка на twitter"
+      link_to_facebook: "ссылка на facebook"
+      link_to_website: "сайт"
     presentation:
-      link-to-follow: 'Follow channel'
-      followers: 'followers'
+      link-to-follow: 'подписаться'
+      followers: 'подписчики'

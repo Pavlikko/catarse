@@ -1,0 +1,17 @@
+#formatting_tips
+  h3 Форматирование
+  = image_tag "catarse/icon_media.png"
+  p Если вставить url картинки или видео на vimeo или youtube, картинка или видео появится на странице.
+  = image_tag "catarse/icon_url.png"
+  p При вставке любого url, он превратится в гиперссылку. Например, http://mylink.com станет <a href="http://www.mylink.com">http://www.mylink.com</a>
+  = image_tag "catarse/icon_linktext.png"
+  p Если нужен текст с гиперссылкой, используйте следующий формат: "Нужный текст":http://your.url. Например, 'My link':http://mylink.com will превратится в <a href="http://www.mylink.com">My link</a>.
+  = image_tag "catarse/icon_bold.png"
+  p
+    | Вы можете выделить текст жирным добавив (**) в начале и в конце текста. Например, **жирный текст** будет выглядеть так
+    strong  my bold text
+    |.
+  = image_tag "catarse/icon_italic.png"
+  p
+    | Для выделения курсивом поставьте (_) до и после выделяемого участка текста. Например, _курсив_ выглядит как    i  курсив
+    |.

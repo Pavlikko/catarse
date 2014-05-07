@@ -1,35 +1,35 @@
 ru:
   date:
     abbr_day_names:
-    - Sun
-    - Mon
-    - Tue
-    - Wed
-    - Thu
-    - Fri
-    - Sat
+    - Вск
+    - Пнд
+    - Втр
+    - Срд
+    - Чтв
+    - Пт
+    - Сб
     abbr_month_names:
     -
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - Jun
-    - Jul
-    - Aug
-    - Sep
-    - Oct
-    - Nov
-    - Dec
+    - Янв
+    - Фев
+    - Мар
+    - Апр
+    - Май
+    - Июн
+    - Июл
+    - Авг
+    - Сен
+    - Окт
+    - Ноя
+    - Дек
     day_names:
-    - Sunday
-    - Monday
-    - Tuesday
-    - Wednesday
-    - Thursday
-    - Friday
-    - Saturday
+    - Воскресенье
+    - Понедельник
+    - Вторник
+    - Среда
+    - Четверг
+    - Пятница
+    - Суббота
     formats:
       default: ! '%Y-%m-%d'
       with_time: ! "%Y/%m/%d - %H:%M"
@@ -37,18 +37,18 @@ ru:
       short: ! '%b %d'
     month_names:
     -
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
+    - Январь
+    - Февраль
+    - Март
+    - Апрель
+    - Май
+    - Июнь
+    - Июль
+    - Август
+    - Сентябрь
+    - Октябрь
+    - Ноябрь
+    - Декабрь
     order:
     - :year
     - :month
@@ -56,88 +56,88 @@ ru:
   datetime:
     distance_in_words:
       about_x_hours:
-        one: about 1 hour
-        other: about %{count} hours
+        one: около 1 часа
+        other: около %{count} часов
       about_x_months:
-        one: about 1 month
-        other: about %{count} months
+        one: около 1 месяца
+        other: около %{count} месяцев
       about_x_years:
-        one: about 1 year
-        other: about %{count} years
+        one: около 1 года
+        other: около %{count} лет
       almost_x_years:
-        one: almost 1 year
-        other: almost %{count} years
-      half_a_minute: half a minute
+        one: почти 1 год
+        other: почти %{count} года
+      half_a_minute: полминуты
       less_than_x_minutes:
-        one: less than a minute
-        other: less than %{count} minutes
+        one: меньше минуты
+        other: меньше %{count} минут
       less_than_x_seconds:
-        one: less than 1 second
-        other: less than %{count} seconds
+        one: меньше 1 секунды
+        other: меньше %{count} секунд
       over_x_years:
-        one: over 1 year
-        other: over %{count} years
+        one: больше года
+        other: больше %{count} лет
       x_days:
-        one: 1 day
-        other: ! '%{count} days'
+        one: 1 день
+        other: ! '%{count} дней'
       x_minutes:
-        one: 1 minute
-        other: ! '%{count} minutes'
+        one: 1 минута
+        other: ! '%{count} минут'
       x_months:
-        one: 1 month
-        other: ! '%{count} months'
+        one: 1 месяц
+        other: ! '%{count} месяцев'
       x_seconds:
-        one: 1 second
-        other: ! '%{count} seconds'
+        one: 1 секунда
+        other: ! '%{count} секунд'
     prompts:
-      day: Day
-      hour: Hour
-      minute: Minute
-      month: Month
-      second: Seconds
-      year: Year
+      day: День
+      hour: Час
+      minute: Минута
+      month: Месяц
+      second: Секунды
+      year: Год
   errors: &errors
     format: ! '%{attribute} %{message}'
     messages:
-      accepted: must be accepted
-      blank: can't be blank
-      confirmation: doesn't match confirmation
-      empty: can't be empty
-      equal_to: must be equal to %{count}
-      even: must be even
-      exclusion: is reserved
-      greater_than: must be greater than %{count}
-      greater_than_or_equal_to: must be greater than or equal to %{count}
-      inclusion: is not included in the list
-      invalid: is invalid
-      less_than: must be less than %{count}
-      less_than_or_equal_to: must be less than or equal to %{count}
-      not_a_number: is not a number
-      not_an_integer: must be an integer
-      odd: must be odd
-      record_invalid: ! 'Validation failed: %{errors}'
-      taken: has already been taken
+      accepted: должно быть принято
+      blank: не может быть пустым
+      confirmation: не соответсвует подтверждению
+      empty: не может быть пустым
+      equal_to: должно быть равным %{count}
+      even: должно быть таким же
+      exclusion: зарезервировано
+      greater_than: должно быть больше чем %{count}
+      greater_than_or_equal_to: должно превышать или равняться %{count}
+      inclusion: не включено в список
+      invalid: не верное значение
+      less_than: должно быть менее чем %{count}
+      less_than_or_equal_to: должно быть меньше или равняться %{count}
+      not_a_number: не цифра
+      not_an_integer: должно быть целым
+      odd: должно быть нечетным
+      record_invalid: ! 'Проверка подлинности не удалась: %{errors}'
+      taken: уже было принято
       too_long:
-        one: is too long (maximum is 1 character)
-        other: is too long (maximum is %{count} characters)
+        one: слишком длинно (максимум 1 символ)
+        other: слишком длинно (максимум %{count} символов)
       too_short:
-        one: is too short (minimum is 1 character)
-        other: is too short (minimum is %{count} characters)
+        one: слишком коротко (минимум 1 символ)
+        other: слишком коротко (минимум %{count} символов)
       wrong_length:
-        one: is the wrong length (should be 1 character)
-        other: is the wrong length (should be %{count} characters)
+        one: неправильная длина (должен быть 1 символ)
+        other: неправильная длина (должно быть %{count} символов)
     template:
-      body: ! 'There were problems with the following fields:'
+      body: ! 'Возникли проблемы со следующими полями:'
       header:
-        one: 1 error prohibited this %{model} from being saved
-        other: ! '%{count} errors prohibited this %{model} from being saved'
+        one: 1 ошибка не позволяет сохранить %{model} 
+        other: ! '%{count} ошибок не позволяют сохранить %{model}'
   helpers:
     select:
-      prompt: Please select
+      prompt: Пожалуйста выберете
     submit:
-      create: Create %{model}
-      submit: Save %{model}
-      update: Update %{model}
+      create: Создать %{model}
+      submit: Сохранить %{model}
+      update: Обновить %{model}
   number:
     currency:
       format:
@@ -159,10 +159,10 @@ ru:
         format: ! '%n %u'
         units:
           billion: Billion
-          million: Million
-          quadrillion: Quadrillion
-          thousand: Thousand
-          trillion: Trillion
+          million: Миллион
+          quadrillion: Квадриллион
+          thousand: Тысяча
+          trillion: ТриллEea
           unit: ''
       format:
         delimiter: ''
@@ -187,8 +187,8 @@ ru:
         delimiter: ''
   support:
     array:
-      last_word_connector: ! ', and '
-      two_words_connector: ! ' and '
+      last_word_connector: ! ', и '
+      two_words_connector: ! ' и '
       words_connector: ! ', '
   time:
     am: am
@@ -206,4 +206,3 @@ ru:
   activerecord:
     errors:
       <<: *errors
-

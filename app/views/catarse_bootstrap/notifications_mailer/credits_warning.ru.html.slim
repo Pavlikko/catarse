@@ -1,11 +1,11 @@
-- user = @notification.user
-|Hi, <strong>#{user.display_name}</strong> !
+﻿- user = @notification.user
+|Здравствуйте, <strong>#{user.display_name}</strong> !
 br
 br
-|We spotted that you have R$ #{user.credits} in credits at Catarse. What about contributing another cool project right now?
+|У Вас на балансе R$ #{user.credits} . Вы можете поддержать какой-нибудь проект прямо сейчас?
 br
 br
-|We have selected below some project suggestions specially for you:
+|Возможно, Вам будут интересны проекты, которые мы хотим предложить:
 br
 br
 -user.recommended_projects.limit(3).each do |project|
@@ -16,26 +16,24 @@ br
   br
 br
 br
-|Here goes step-by-step so you won’t have any troubles using your credits ;)
+|Вам будет удобно воспользоваться накопленным балансом ;)
 br
 br
-|1 - #{link_to('Choose the project you want to contribute;', explore_url)}
+|1 - #{link_to('Выберете проект, который Вы хотите поддержать;', explore_url)}
 br
-|2 - Click on the 'Contribute This Project' button;
+|2 - Нажмите 'Поддержать проект' ;
 br
-|3 -Tell us how much you want to pledge and make sure you check the box saying you want to use your credits for that..
+|3 -Сообщите нам, сколько Вы хотите внести и убедитесь, что вы используете Ваш баланс..
 br
-|4 - Click on Review and Proceed to Check Out;
+|4 - Нажмите Обзор и Продолжить, чтобы внести средства;
 br
-|5 -Done! Your pledge will be confirmed =)
-br
-br
-|If you rather ask for a refund, first logon to your Catarse account and then click #{link_to("here", "#{Configuration[:base_url]}/users/#{user.to_param}#credits")}.
-|#{link_to('This article', 'http://suporte.catarse.me/knowledgebase/articles/164746-regras-e-funcionamento-dos-reembolsos-estornos')} aboud refunds will solve most of  your doubts.
+|5 -Готово! Ваш взнос будет подтвержден =)
 br
 br
-|If you have any other doubts please get in touch with us through our support area: suporte.catarse.me.
+|Если Вы хотите вывести средства,войдите в Ваш аккаунт и нажмите #{link_to("here", "#{Configuration[:base_url]}/users/#{user.to_param}#credits")}.
+|#{link_to('This article', 'http://suporte.catarse.me/knowledgebase/articles/164746-regras-e-funcionamento-dos-reembolsos-estornos')}.br
+br
+|Если у Вас возникли сложности, обратитесь к нам: suporte.catarse.me.
 br
 br
-|Best regards,
-|Catarse's team
+|С уважением,|SportSupport

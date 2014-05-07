@@ -1,43 +1,43 @@
-ru:
+﻿ru:
   submit_project:
-    title: "Submit your project to %{channel} channel"
-    subtitle: "After filling out the form below, you will receive a draft project page. There you will add rewards and can share with your friends to have an even more sharp message. The information filled below are not definitive, but remember that the more consistent you are in your project submission, the faster it will air."
-    important: "<strong>Important:</strong> The %{channel} selects the projects based on their own criteria, this implies that the project can be refused by the curators team."
+    title: "Размещение проекта на %{channel}"
+    subtitle: "После заполнения формы будет создана черновая страница проекта. Вы можете поделиться ей с друзьями и указать там информацию о вознаграждениях. Указываемая в форме информация может быть не окончательной, но чем Вы более последовательны, тем больше шансов, что проект успешно реализуется."
+    important: "<strong>Важно:</strong> Команда %{channel} проверяет проекты на соответсвие правилам. Проект может быть отклонен без объяснения причин."
 
-    permalink: "Project Url"
-    permalink_hint: "Project URL is the web address for your project, keep it simple. Try to not use underline, dash and special characters"
+    permalink: "Url проекта"
+    permalink_hint: "URL проекта - это его короткий адрес. Не используйте в нем выделение и специальные символы"
 
-    name: "Project's Name"
-    name_hint: "Be as objective as you can. Leave explanations for the About section."
+    name: "Название проекта"
+    name_hint: "Укажите короткое и понятное название. Подробную информацию укажите в разделе \"О проекте\""
 
-    about: "About your project. How will you spend this money?"
-    about_hint: "Tell us about what inspired you to come up with this project . Be objective end charming, present your readers with something that moves them while being very transparent over the expectations on your project!"
+    about: "Подробно о вашем проекте. Как Вы используете собранные средства"
+    about_hint: "Расскажите, что заставило Вас заняться этим проектом . Понятно и доступно объясните, в чем смысл проекта, зачем кому-то его поддерживать."
 
-    headline: "Punch Line"
-    headline_hint: "Summarize your project in 140 characters. This sentence will be the first contact people will have with your project, before even seeing the video. Be creative, clear and direct."
+    headline: "Главное"
+    headline_hint: "Расскажите самое главное о своем проекте в коротком тексте из 140 символов. Это будет самое первое, что узнают о вашем проекте, еще до просмотра видео. Коротко, ясно, по делу."
 
-    category_id: "Category"
-    category_id_hint: "Before you format your project <a href='%{href}' target='_blank'>explore other</a> (successful) projects to inspire yourself!"
+    category_id: "Категория"
+    category_id_hint: "Перед тем как оформить свой проект <a href='%{href}' target='_blank'>ознакомьтесь с другими</a> (successful) проектами, чтобы понять как преподнести его наилучшим образом!"
 
-    goal: "Values in reais (R$)"
-    goal_hint: "The biggest part of the supportes will be close to you. Based on that try to think on your capacity to mobilize at least 50% of your network. Remember the Catarse 13% tax.Just divide your final budget by 0,87 to reach the final number."
+    goal: "Целевая сумма (R$)"
+    goal_hint: "Устанавливайте реальную достижимую сумму соответствующую масшатабам проекта.Помните о комиссии SportSupport (7%) и платежных систем"
 
-    online_days: "How Many Campaign Days?"
-    online_days_hint: "Finally, choose how long you want your campaign to last. Again, this is a strategic choice: if you put a lot of time, people will lose interest along the way; if put too little, you may not reach the minimum in time."
+    online_days: "Продолжительность сбора средств"
+    online_days_hint: "Установите продолжительность сбора средств. Постарайтесь выбрать оптимальный срок: если сбор средств будет слишком долгим, интерес к проекту утратится, а за слишком короткий срок проект не успеет собрать средства."
 
-    video_url: "Vídeo"
-    video_url_hint: "Paste here the URL of your Youtube or Vimeo video."
+    video_url: "Видео"
+    video_url_hint: "Вставьте ссылку на ваш ролик на Youtube или Vimeo"
 
-    more_links: "List project related links"
-    more_links_hint: "Which channels will be used to spread the word about your project? List here your facebook/twitter/blog/site/ and what ever more links you have to help you."
+    more_links: "Ссылки, относящиеся к проекту"
+    more_links_hint: "Как будет распространяться информация о проекте? Укажите здесь ссылки на ваши блоги и страницы в социальных сетях, а также на любых других ресурсах, где вы будете распространять информацию о проекте"
 
-    first_contributions: "List the first contributions"
-    first_contributions_hint: "To reach your financial goal it’s indispensable to engage the people who are close to you and the project. So if you can list here who will be your first 20 contributions that would be a great sign."
+    first_contributions: "Перечислите первых меценатов проекта"
+    first_contributions_hint: "Укажите здесь тех, кто уже поддержал или готов поддержать ваш проект, чтобы подтвердить его осуществимость"
 
-    how_know: "Hou you discovered the channel?"
-    how_know_hint: "Tell us how you discovered the channel and what you expect from us."
+    how_know: "Как вы узнали о нас"
+    how_know_hint: "Как Вы о нас узнали и чего от нас ожидаете?"
 
-    accept_terms: "I read and agree with the %{link}."
-    terms: "use terms"
+    accept_terms: "Я прочитал(а) пользовательское соглашение %{link} и принимаю его."
+    terms: "Пользовательское соглашение"
 
-    submit: "Save draft"
+    submit: "Сохранить черновик"
