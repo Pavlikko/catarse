@@ -119,20 +119,20 @@ ru:
       facebook: "а Вы уже полайкали нашу страничку на Facebook?"
       newsletter: "подписаться на наши новости"
       faq: "есть вопросы?"
-      schedule: calendar
+      schedule: календарь
     placeholders:
       email: "Enter your email"
     buttons:
-      newsletter: Submit
+      newsletter: Отправить
   sections:
     near:
-      title: Near me
+      title: Рядом со мной
     recommended:
-      title: Recommended
+      title: Рекомендованные
     expiring:
-      title: Expiring
+      title: Зааканчивающиеся
     recents:
-      title: Recent
+      title: Недавние
     channels:
       title: "??? канал"
   accept_terms_html: "Я прочитал и принял %{link}."
@@ -147,30 +147,30 @@ ru:
       unsubscribe:
         update: "Получать обновления проекта"
       contribution:
-        value: Value
+        value: Значение
       project:
-        category: Category
-        expires_at: Deadline
-        online_days: Days of the air campaign
-        headline: Headline
+        category: Категория
+        expires_at: Срок истечения
+        online_days: Активных дней
+        headline: Заголовок
         image_url: "Ссылка на рисунок"
-        name: Name
+        name: Имя
         user_id: "ID пользователя"
         video_url: "Ссылка видео"
         permalink: 'Сслыка на проект'
         how_know: "Откуда вы узнали о спортсуппорте?"
         more_links: 'Где можно найти ещё информацию о Вас и Вашем проекте?'
       reward:
-        description: Description
+        description: Описание
         maximum_contributions: "Максимальные взносы"
         minimum_value: "Минимальное значение"
       user:
-        address_city: City
-        address_complement: Complement
-        address_neighbourhood: Neighbourhood
-        address_number: Number
-        address_state: State
-        address_street: Street
+        address_city: Город
+        address_complement: Дополнительный адрес
+        address_neighbourhood: Окрестность
+        address_number: Номер
+        address_state: Штат
+        address_street: Улица
         address_zip_code: "Индекс"
         cpf: '???'
         cpf_hint_title: '???'
@@ -183,25 +183,25 @@ ru:
         full_name: "Полное имя / Название компании"
         bio: 'Кратко опишите себя'
         name: "Nickname"
-        password: Password
+        password: Пароль
         password_confirmation: "Подтверждение пароля"
         phone_number: "Оператор сотовой связи"
         newsletter: 'Я хочу получать письма от sportsupport.ru'
     models:
-      contribution: Contribution
-      category: Category
-      project: Project
-      reward: Reward
+      contribution: Взнос
+      category: Категория
+      project: Проект
+      reward: Награда
   contribution:
     display_confirmed_at: "%{time_ago} назад"
     reward_must_be_from_project: "должен быть из того же проекта"
     should_not_contribute_if_maximum_contributions_been_reached: "уже набрал необходимую сумму взносов"
     value_must_be_at_least_rewards_value: "нужно не меньше %{minimum_value} для выбранной награды"
     project_should_be_online: "Вы не можете делать взносы в неактивные проекты"
-  contribution_plural: contributions
-  project_plural: projects
-  project_singular: project
-  contribution_singular: contribution
+  contribution_plural: взносы
+  project_plural: проекты
+  project_singular: проект
+  contribution_singular: взнос
   click_here: "Кликните здесь"
   clicking_here: "кликнув здесь"
   click_term: 'условия'
@@ -225,9 +225,9 @@ ru:
       refunds_title: "Платежи, которые могут быть возвращены."
       request_refund: "Запросить возврат"
       requested_refund: "Запрошенный возврат"
-      status: Status
+      status: Статус
       title: "Мой счёт"
-      value: Value
+      value: Значение
     refund:
       cannot_refund: "Этот платёж невозможно вернуть."
       error: "Ой, ошибонька вышла при попытке запросить ваш возврат."
@@ -239,19 +239,19 @@ ru:
     index:
       title: "Курируемые страницы"
     show:
-      contributed: contributed
-      reached: reached
+      contributed: со взносами
+      reached: достигшие цели
   error: "Ой! Ошибонька вышла. Пожалуйста, попытайтесь ещё раз."
   explore:
     index:
       near: 'Рядом со мной'
-      categories: Categories
+      categories: Категории
       expiring: "Заканчивающиеся"
       quick_explore: "Быстрый поиск"
-      recent: Recent
-      recommended: Recommended
+      recent: Недавние
+      recommended: Рекомендованные
       subtitle: "Исследуйте проекты, найдите те, которые касаются Вас, и помогите воплотить их!"
-      successful: Successful
+      successful: Успешные
       title: "Откройте удивительные проекты"
     title: "Исследуйте проекты"
     project:
@@ -319,7 +319,7 @@ ru:
       signup: "Sign up"
       signin: Login
       discover: Discover
-      submit: Send your project
+      submit: Прислать свой проект
       profile: "My profile"
       account: "My account"
     user:
@@ -571,7 +571,7 @@ ru:
       headline_important: "It's a summary of  your project . 140 characters tops!:D"
       tags_important: "Check other projects in your category  <a href='%{href}' target='_blank'>here!</a>!."
       subtitle: "The time to make it happen is now! We really want to know what you're up to..."
-      title: "Send your project"
+      title: "Прислать свой проект"
       about: "Describe your project and how much do you need"
       category: "Project category"
       how_much_you_need: "How much do you want to raise?"
