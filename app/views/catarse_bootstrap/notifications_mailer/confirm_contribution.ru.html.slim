@@ -9,7 +9,7 @@ br
 |Сохраните это письмо в качестве подтверждения.
 br
 br
-|Важно:<strong> Если Вы использовали кредитную карту</strong>, в платеже появится #{contribution.payment_method}. К сожалению при оплате кредитной картой нет возможности показать название #{Configuration[:company_name]}.
+|Важно:<strong> Если Вы использовали кредитную карту</strong>, в платеже появится #{contribution.payment_method}. К сожалению при оплате кредитной картой нет возможности показать название #{CatarseSettings[:company_name]}.
 br
 br
 |Сумма поддержки: <strong>R$ #{contribution.value}</strong>
@@ -17,7 +17,7 @@ br
 -if contribution.reward
   |Chosen reward: <strong>#{contribution.reward.description}</strong>
 -else
-  |Вы не выбрали вознаграждение, если у Вас есть вопросы, свяжитесь с нами #{mail_to Configuration[:email_contact]}
+  |Вы не выбрали вознаграждение, если у Вас есть вопросы, свяжитесь с нами #{mail_to CatarseSettings[:email_contact]}
 br
 |Назад: #{contribution.key}
 br
@@ -35,9 +35,9 @@ br
 |Если Вы хотите связаться с автором проекта #{contribution.project.user.name}, отправьте письмо на #{mail_to contribution.project.user.email}
 br
 br
-|Если у Вас остались вопросы, обратитесь в наш раздел FAQ #{link_to('FAQ', "#{Configuration[:base_url]}/faq")} или напишите нам #{mail_to Configuration[:email_contact]}
+|Если у Вас остались вопросы, обратитесь в наш раздел FAQ #{link_to('FAQ', "#{CatarseSettings[:base_url]}/faq")} или напишите нам #{mail_to CatarseSettings[:email_contact]}
 br
 br
 |С уважением,
 br
-|#{Configuration[:company_name]} 
+|#{CatarseSettings[:company_name]} 

@@ -8,7 +8,7 @@ br
 |Если квитанция уже оплачена, но ваше имя не появилось в списке поддержавших проект, не беспокойтесь в течении не более  <strong>3 рабочих дней</strong> ваше имя появится на сайте.
 br
 br
-|Если Вы забыли оплатить квитанцию, но все равно хотите поддержать проект, перейдите по ссылке #{link_to('página do projeto', project_by_slug_url(permalink: contribution.project.permalink, host: Configuration['host'] ))} и выберите поддержку проекта заново. Первая квитанция будет отменена.
+|Если Вы забыли оплатить квитанцию, но все равно хотите поддержать проект, перейдите по ссылке #{link_to('página do projeto', project_by_slug_url(permalink: contribution.project.permalink, host: CatarseSettings['host'] ))} и выберите поддержку проекта заново. Первая квитанция будет отменена.
 br
 br
 |Как только платеж будет авторизован, Вы получите письмо с подтверждением.
@@ -16,4 +16,4 @@ br
 br
 |С уважением,
 br
-|#{Configuration[:company_name]} SportSupport
+|#{CatarseSettings[:company_name]} SportSupport

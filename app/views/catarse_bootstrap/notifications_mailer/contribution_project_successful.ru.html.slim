@@ -2,22 +2,22 @@
 |Здравствуйте, #{contribution.user.name}!
 br
 br
-  |Проект #{link_to(contribution.project.name, "#{Configuration[:base_url]}/projects/#{contribution.project.to_param}")} который Вы поддерживали успешно собрал средства #{Configuration[:company_name].downcase}! Поздравляем! o/
+  |Проект #{link_to(contribution.project.name, "#{CatarseSettings[:base_url]}/projects/#{contribution.project.to_param}")} который Вы поддерживали успешно собрал средства #{CatarseSettings[:company_name].downcase}! Поздравляем! o/
 br
 br
 |Количество пользователей, поддержавших проект, включая Вас #{contribution.project.total_contributions} , собрано #{contribution.project.display_pledged} ,что составляет #{contribution.project.progress}% целевой суммы =D
 br
 br
-|Важно: #{Configuration[:company_name]} Передача контактов поддержавших проект его авторам может занять до 3 дней.Поэтому авторы проекта свяжутся с Вами в течении нескольких дней. T
+|Важно: #{CatarseSettings[:company_name]} Передача контактов поддержавших проект его авторам может занять до 3 дней.Поэтому авторы проекта свяжутся с Вами в течении нескольких дней. T
 br
 br
 |Тем временем Вы можете поделиться успехом с друзьями!
 br
 br
-- fb_img = "<img src=\"#{Configuration[:base_url]}/assets/auth/facebook_64.png\" title='Facebook' class='social' />".html_safe
-== raw link_to(fb_img, "http://www.facebook.com/share.php?u=#{Configuration[:base_url]}/projects/#{contribution.project.to_param}&t=Это бомба! Проект '#{contribution.project.name}'с моей поддержкой успешно собрал средства на #{Configuration[:company_name]}!" , :target => :_blank)
-- twitter_img = "<img src='#{Configuration[:base_url]}/assets/auth/twitter_64.png' title='Twitter' class='social' />".html_safe
-== raw link_to(twitter_img,"http://twitter.com/?status=#{"Это бомба! Проект '#{contribution.project.name}', с моей поддержкой успешно собрал средства  @#{Configuration[:twitter_username]}! #{project_by_slug_url(permalink: contribution.project.permalink)}"}", :target => :_blank)
+- fb_img = "<img src=\"#{CatarseSettings[:base_url]}/assets/auth/facebook_64.png\" title='Facebook' class='social' />".html_safe
+== raw link_to(fb_img, "http://www.facebook.com/share.php?u=#{CatarseSettings[:base_url]}/projects/#{contribution.project.to_param}&t=Это бомба! Проект '#{contribution.project.name}'с моей поддержкой успешно собрал средства на #{CatarseSettings[:company_name]}!" , :target => :_blank)
+- twitter_img = "<img src='#{CatarseSettings[:base_url]}/assets/auth/twitter_64.png' title='Twitter' class='social' />".html_safe
+== raw link_to(twitter_img,"http://twitter.com/?status=#{"Это бомба! Проект '#{contribution.project.name}', с моей поддержкой успешно собрал средства  @#{CatarseSettings[:twitter_username]}! #{project_by_slug_url(permalink: contribution.project.permalink)}"}", :target => :_blank)
 br
 br
 strong
@@ -39,10 +39,10 @@ strong
 |Если Вы хотите связаться с #{contribution.project.user.name}, напишите письмо #{mail_to contribution.project.user.email}
 br
 br
-|С прочими вопросами обращайтесь в наш раздел FAQ #{link_to('FAQ', "#{Configuration[:base_url]}/faq")} или напишите нам #{mail_to Configuration[:email_contact]}
+|С прочими вопросами обращайтесь в наш раздел FAQ #{link_to('FAQ', "#{CatarseSettings[:base_url]}/faq")} или напишите нам #{mail_to CatarseSettings[:email_contact]}
 br
 br
 |С уважением,
 br
 br
-|#{Configuration[:company_name]} 
+|#{CatarseSettings[:company_name]} 
